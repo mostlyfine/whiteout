@@ -1,6 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 * {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: unset;
   background-image:none !important;
   background-color:#f7f7f7 !important;
   border-color:#666666 !important;
@@ -25,6 +27,15 @@
   height:auto  !important;
   box-shadow: none !important;
   text-shadow: none !important;
+}
+
+@media only screen and 
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx) {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
 body {

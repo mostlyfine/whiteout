@@ -27,6 +27,7 @@
   height:auto  !important;
   box-shadow: none !important;
   text-shadow: none !important;
+  overflow: visible !important;
 }
 
 @media only screen and 

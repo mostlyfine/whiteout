@@ -4,11 +4,11 @@
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: unset;
   background-image:none !important;
-  background-color:#f7f7f7 !important;
+  background-color:#fff !important;
   border-color:#666666 !important;
   border: none !important;
   text-decoration:none !important;
-  color: #444444 !important;
+  color: #222 !important;
   font-size:18px !important;
   font-weight:normal !important;
   padding:0.15em !important;
@@ -126,12 +126,12 @@ blockquote, pre, code {
   border:1px dashed #999 !important;
   width: 90% !important;
   padding: 10px !important;
-  background-color: #fffcf0 !important;
+  background-color: #f7f9f9 !important;
 }
 
 blockquote *, pre * {
   border: none !important;
-  background-color: #fffcf0 !important;
+  background-color: #f7f9f9 !important;
 }
 
 /* DISABLE BANNER */

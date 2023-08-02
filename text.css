@@ -15,7 +15,7 @@
   margin:0 !important;
   margin-left:auto !important;
   margin-right:auto !important;
-  line-height:2.0em !important;
+  line-height:1.7em !important;
   text-indent:0 !important;
   text-align: left !important;
   white-space: normal !important;
@@ -25,11 +25,13 @@
   position:relative !important;
   width:auto  !important;
   height:auto  !important;
+  box-sizing: border-box !important;
   box-shadow: none !important;
   text-shadow: none !important;
   overflow: visible !important;
 }
 
+/*
 @media only screen and 
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx) {
@@ -38,13 +40,14 @@
     -moz-osx-font-smoothing: grayscale;
   }
 }
+*/
 
 body {
   text-align:center !important;
 }
 
 body div {
-  width: 750px !important;
+  width: 800px !important;
   margin: 0 auto !important;
 }
 

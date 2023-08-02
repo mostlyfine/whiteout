@@ -8,9 +8,9 @@
   border-color:#666666 !important;
   border: none !important;
   text-decoration:none !important;
-  color: #222 !important;
-  font-size:18px !important;
-  font-weight:normal !important;
+  color: #000 !important;
+  font-size:20px !important;
+  font-weight:300 !important;
   padding:0.15em !important;
   margin:0 !important;
   margin-left:auto !important;
@@ -48,18 +48,19 @@ body div {
   margin: 0 auto !important;
 }
 
+/*
 img {
   opacity:0.3 !important;
   height:10% !important;
   width:10% !important;
 }
 
-/* MOUSE CURSOR HOVER SATATE -> NORMAL-SIZE */
 img:hover {
   opacity:0.9 !important;
   height:auto !important;
   width:auto !important;
 }
+*/
 
 a, a * {
   color: #1B67B6 !important;
